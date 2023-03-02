@@ -1,0 +1,117 @@
+
+    
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+
+}
+.name_wrapper{
+    margin-left: 30%;
+}
+    .ti{
+        font-size: x-large;
+    }
+    
+
+.container{
+    background-color: rgb(56, 67,89);
+    
+    border:10px solid;
+
+}
+.content{
+    max-width: 1000px;
+    margin: 0 auto;
+    background-image:url( "Dr.jpg");
+    background-repeat: no-repeat;
+
+
+}
+
+
+
+.top_section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+align-items: flex-end;
+}
+.top_section h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: aquamarine;
+    padding-right: 100%;
+    padding-bottom: 100%;
+
+}
+.top_section h4{
+    font-size: 30px;
+    text-align: end;
+    padding-right: 100%;
+    padding-bottom: 100%;
+}
+.about_section h2{
+    font-size: 70px;
+    font-weight: 400;
+    margin-bottom: 20px;
+
+}
+.about_section p{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing:1.2px;
+    text-align: justify;
+}
+.award{
+    font-size: 40px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+
+}
+.topic:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.list{
+    padding-top: 20px;
+}
+.name_wrapper{
+    height: 60vh;
+}
+#Name {
+
+    padding-top: 80px;
+    padding-right: 10px;
+    font-style: italic;
+    cursor: pointer;
+}
+#Name:hover{
+    color: brown;
+}
+    
+
+
+#date:hover{
+    color: #4f0256;
+}
+.footer{
+    text-align: end;
+
+}
+.end a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    color: white;
+}
+.end{
+    background-color: rgb(20, 147, 26);
+    padding: 1px 2px;
+    border-radius: 2rem;
+    margin-top: 1rem;
+}
+.end a:hover{
+    color: #e532b2;
+}
